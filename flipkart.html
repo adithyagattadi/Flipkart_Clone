@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VAIBHAV:SUPER MARKET</title>
+    <link rel="stylesheet" href="flipkart.css">
+</head>
+
+<body>
+    <div class="first">
+        <div id="tag">V-Kart<sub>your need is here</sub></div>
+        <img src="Logo.png" id="logo" style="width:55px" alt="Logo">
+        <input type="text" id="searchbar" placeholder="    Search for products, brands and more">
+    </div>
+    <div class="search" id="search"><img src="https://cdn-icons-png.flaticon.com/512/84/84236.png" alt="Search"
+            style="width: 26px;"></div>
+    <div class="login">Login</div>
+    <div class="more">More</div>
+    <div id="cartsymbol">
+        <img src="https://cdn-icons-png.flaticon.com/512/84/84426.png" alt="Cart" style="width: 35px;">
+    </div>
+    <div class="cart">Cart</div>
+    <div class="second">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5V_JG7ynv2zIPDdfG_xTYybmd8vWhLw63AA&usqp=CAU"
+            alt="Mobiles" style="width: 81px;" id="mobilesymbol">
+        <b id="mobiles">Mobiles</b>
+        <img src="fashion-modified.png" style="width:84px;" alt="Fashion" id="fashionsymbol">
+        <b id="fashion">Fashion</b>
+        <img src="electronics-modified.png" style="width:84px;" alt="Electronics" id="electronicssymbol">
+        <b id="electronics">Electronics</b>
+        <img src="furniture-modified.png" style="width:84px;" alt="Furniture" id="furnituresymbol">
+        <b id="furniture">Furniture</b>
+        <img src="travel-modified.png" style="width:84px;" alt="Travel" id="travelsymbol">
+        <b id="travel">Travel</b>
+        <img src="cosmetics-modified.png" style="width:84px;" alt="Cosmetics" id="cosmeticssymbol">
+        <b id="cosmetics">Beauty Products</b>
+        <img src="grocery-modified.png" style="width:84px;" alt="Grocery" id="grocerysymbol">
+        <b id="grocery">Grocery</b>
+        <img src="toys-modified.png" style="width:84px;" alt="Toys" id="toyssymbol">
+        <b id="toys">Toys</b>
+    </div>
+    <div class="third">
+
+        <img src="offer2 (1).jpg" id="image" style="width: 50vw;position: relative;top: 55px;left: 620px;">
+        <div id="arrow"><img src="next.png" alt="arrow" style="width: 90px;" onclick="clicked()"></div>
+        <div id="offers">Top Offers</div>
+    </div>
+    <div class="fourth"
+        style="border-top-width: 15px;border-top-style: solid;border-bottom-width: 63px;border-bottom-style: solid;border-right-width: 15px;border-right-style: solid;">
+        <img src="https://cdn.grabon.in/gograbon/images/web-images/uploads/1617875488697/clothing-offers.jpg"
+            alt="error" style="height: 385px;width: 45vw;" id="coupon1">
+    </div>
+        <div class="fifth"
+            style="border-top-width: 16px;border-top-style: solid;border-right-width: 25px;border-right-style: solid;border-left-width: 14px;border-left-style: solid;">
+            <img src="https://cdn.grabon.in/gograbon/images/merchant/1550656229245.png" alt="error"
+                style="width: 741px;">
+        </div>
+       
+        <script>
+            let i = document.getElementById("arrow");
+            function clicked() {
+
+                if (image.src = "offer2 (1).jpg") {
+                    image.src = "offer3.jpeg";
+                    console.log("Hiii-1");
+                }
+                else if (image.src = "offer3.jpeg") {
+                    image.src = "offer4.jpeg";
+                    console.log("Hiii-2");
+                }
+                else if (image.src = "offer4.jpeg") {
+                    image.src = "offer5.jpeg";
+                    console.log("Hiii-3");
+                }
+                else if (image.src = "offer5.jpeg") {
+                    image.src = "offer6.jpeg";
+                    console.log("Hiii-4");
+                }
+                else {
+                    image.src = "offer2 (1).jpg";
+                    console.log("Hiii-5");
+                }
+            }
+            document.getElementById("mobiles").onclick = function () {
+                location.href = "https://www.flipkart.com/big-saving-days-mar22-store?param=19867736376343&fm=neo%2Fmerchandising&iid=M_cd3b66e9-d300-439a-8f63-52b69c1998af_1_00A51ENHB1YR_MC.AIDH8F3BCTJQ&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Mobiles_AIDH8F3BCTJQ&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=AIDH8F3BCTJQ"
+            };
+            document.getElementById("fashion").onclick = function () {
+                location.href = "https://www.flipkart.com/fashion-bsd-march22-sale-store?param=19867736376343&fm=neo%2Fmerchandising&iid=M_4b84d5a8-6537-42d4-8936-42fe9cc5907e_1_00A51ENHB1YR_MC.NYEMHX57LP8R&otracker=hp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Fashion_NYEMHX57LP8R&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L0_view-all&cid=NYEMHX57LP8R"
+            };
+            document.getElementById("electronics").onclick = function () {
+                location.href = "https://www.flipkart.com/electronics-big-savings-days-sale-store?param=19867736376343&fm=neo%2Fmerchandising&iid=M_1e9e79f4-5c96-41f3-bfc5-f1e1bab71caa_1_00A51ENHB1YR_MC.3JCSYRATTA23&otracker=hp_rich_navigation_3_1.navigationCard.RICH_NAVIGATION_Electronics_3JCSYRATTA23&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L0_view-all&cid=3JCSYRATTA23"
+            };
+            document.getElementById("furniture").onclick = function () {
+                location.href = "https://www.flipkart.com/furniture-big-saving-days1-store?param=19867736376343&fm=neo%2Fmerchandising&iid=M_13dbfc91-8603-456f-b719-84687174b6ad_1_00A51ENHB1YR_MC.8TVKUWT87M16&otracker=hp_rich_navigation_7_1.navigationCard.RICH_NAVIGATION_Furniture_8TVKUWT87M16&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_7_L0_view-all&cid=8TVKUWT87M16"
+            };
+            document.getElementById("travel").onclick = function () {
+                location.href = "https://www.flipkart.com/travel/flights?param=NavBSDJan22&fm=neo%2Fmerchandising&iid=M_fd6f5ea9-4306-46e2-b214-eebd4ac3ef9f_1_00A51ENHB1YR_MC.7IBT9QR5QKBW&otracker=hp_rich_navigation_5_1.navigationCard.RICH_NAVIGATION_Travel_7IBT9QR5QKBW&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_5_L0_view-all&cid=7IBT9QR5QKBW"
+            };
+            document.getElementById("cosmetics").onclick = function () {
+                location.href = "https://www.flipkart.com/bgm-big-saving-days-sale2021-store?param=19867736376343&fm=neo%2Fmerchandising&iid=M_6eabdd23-cae0-448a-8f22-6c2b56ef2980_1_00A51ENHB1YR_MC.FASV00V1AKV7&otracker=hp_rich_navigation_8_1.navigationCard.RICH_NAVIGATION_Beauty%252CToys%2B%2526%2Bmore_FASV00V1AKV7&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_8_L0_view-all&cid=FASV00V1AKV7"
+            };
+            document.getElementById("grocery").onclick = function () {
+                location.href = "https://www.flipkart.com/grocery-supermart-store?marketplace=GROCERY&param=4546677678928174465&fm=neo%2Fmerchandising&iid=M_e05cf5b0-b8c7-470e-9c4c-2e6feddd5e2b_1_00A51ENHB1YR_MC.8WQ1LO5EIJ31&otracker=hp_rich_navigation_9_1.navigationCard.RICH_NAVIGATION_Grocery_8WQ1LO5EIJ31&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_9_L0_view-all&cid=8WQ1LO5EIJ31"
+            };
+            document.getElementById("toys").onclick = function () {
+                location.href = "https://www.flipkart.com/bgm-big-saving-days-sale2021-store?param=19867736376343&fm=neo%2Fmerchandising&iid=M_78bea6fa-3519-4a0b-95f6-ec445ec54ba6_1_00A51ENHB1YR_MC.FASV00V1AKV7&otracker=hp_rich_navigation_8_1.navigationCard.RICH_NAVIGATION_Beauty%252CToys%2B%2526%2Bmore_FASV00V1AKV7&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_8_L0_view-all&cid=FASV00V1AKV7"
+            };
+            
+        </script>
+        
+</body>
+<!-- <link rel="stylesheet" href="flipkart.js"> -->
+
+</html>

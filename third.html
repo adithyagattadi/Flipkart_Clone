@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: red;
+        }
+        .one{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <input type="button" value="Click Me" onclick="clicked()" id="click">
+    <div class="container" id="first">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt maxime nisi mollitia sint blanditiis, suscipit quod accusamus repellendus. Ab fuga quia dolore quae eaque sequi necessitatibus exercitationem autem ullam repellat.</div>
+    <br>
+    <label for="Submit" id="i"></label>
+    <input type="button" name="submit" id="i" value="Submit" >
+    <div class="one">
+        <div class="two">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia eligendi consequuntur itaque laudantium iste porro debitis neque cupiditate repellendus, ut sapiente vel, impedit nesciunt inventore hic libero ab totam, animi deserunt quasi. Fugit, soluta beatae facilis vitae adipisci ipsa libero eum expedita sapiente animi. Incidunt tempora recusandae dignissimos. Molestiae, nemo!</div>
+    </div>
+</body>
+<script>
+    let elem=document.getElementById('click');
+    // document.getElementById('click').click();
+    console.log(elem);
+    document.getElementById("click").style.border='2px solid red';
+    function clicked(){
+        console.log("The button was clicked");
+    }   
+    window.onload=function(){
+        console.log("The window was loaded");
+    }
+    first.addEventListener("click",function(){
+        console.log(Date());
+    })
+    first.addEventListener("mouseover",function(){
+        console.log("Mouse over");
+    })
+    first.addEventListener("mouseout",function(){
+        console.log("Mouse out");
+    })
+    first.addEventListener("mouseup",function(){
+        console.log("Mouse up");
+    })
+    first.addEventListener("mousedown",function(){
+        console.log("Mouse down");
+    })
+    container.addEventListener("click",function(){document.querySelectorAll('.container')[0].innerHTML='<b>Hi we are here/<b>';
+    })
+    // function hello(){
+    //     document.getElementById("i").style.border='5px solid green';
+    // }
+    one.addEventListener("mouseup",function(){document.querySelectorAll(".two").[0].inner
+        console.log("Mouse up");
+    })
+    first.addEventListener("mousedown",function(){
+        console.log("Mouse down");
+    })
+</script>
+    
+</html>
+
+

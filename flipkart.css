@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first{
+    background-color: #0aa1e7a4;
+    height: 57px;
+}
+#tag{
+    position: relative;
+    top: 6px;
+    left: 85px;
+    font-size: 30px;
+}
+#logo{
+    position: relative;
+    top: -39px;
+    left: 23px;
+}
+#searchbar{
+    border-right-width: 2.6px;
+    border-right-style: solid;
+    width: 475.667px;
+    height: 32px;
+    position: relative;
+    top: -61px;
+    left: 338px;
+}
+#search{
+    position: relative;
+    top: -42px;
+    left: 882px;
+}
+.login{
+    position: relative;
+    top: -69px;
+    left: 996px;
+    background-color: white;
+    width: 100px;
+    height: 33px;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: -5px;
+    width: 98px;
+    height: 28px;
+    color: #0aa1e7a4;
+    cursor: pointer;
+}
+.more{
+    position: relative;
+    top: -98px;
+    left: 1191px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.cart{
+    position: relative;
+    top: -159px;
+    left: 1357px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    
+}
+#cartsymbol{
+    position: relative;
+    width: 35px;
+    top: -127px;
+    left: 1312px;
+    color: white;
+}
+#mobiles{
+ font-size: 22px;
+ position: relative;
+ top: -86px;
+ left: 16px;
+ cursor: pointer;
+}
+#mobilesymbol{
+    position: relative;
+    top: -112px;
+    left: 100px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+
+#fashionsymbol{
+    position: relative;
+    top: -110px;
+    left: 88px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+#fashion{
+    position: relative;
+    top:-86px;
+    left: 0px;
+    font-size: 22px;
+    cursor: pointer;
+}
+#electronicssymbol{
+    position: relative;
+    top: -110px;
+    left: 75px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+#electronics{
+    position: relative;
+    top:-86px;
+    left: -20px;
+    font-size: 22px;
+    cursor: pointer;
+}
+#furnituresymbol{
+    position: relative;
+    top: -110px;
+    left: 50px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+#furniture{
+    position: relative;
+    top:-86px;
+    left: -40px;
+    font-size: 22px;
+    cursor: pointer;
+}
+#travelsymbol{
+    position: relative;
+    top: -110px;
+    left: 30px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+#travel{
+    position: relative;
+    top:-86px;
+    left: -50px;
+    font-size: 22px;
+    cursor: pointer;
+}
+#cosmeticssymbol{
+    position: relative;
+    top: -110px;
+    left: 60px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+#cosmetics{
+    position: relative;
+    top:-86px;
+    left: -60px;
+    font-size: 22px;
+    cursor: pointer;
+}
+#grocerysymbol{
+    position: relative;
+    top: -110px;
+    left: -10px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+#grocery{
+    position: relative;
+    top:-86px;
+    left: -95px;
+    font-size: 22px;
+    cursor: pointer;
+}
+#toyssymbol{
+    position: relative;
+    top: -110px;
+    left: -10px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+#toys{
+    position: relative;
+    top:-86px;
+    left: -80px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.third{
+    background-color:#8080801a;
+    height: 1000px;
+    position: relative;
+    top: -30px;
+
+}
+#arrow{
+    background-color: white;
+    position: relative;
+    top: -148px;
+    left: 1388px;
+    width: 70px;
+    cursor: pointer;
+}
+#offers{
+    width: 311px;
+    color: red;
+    position: relative;
+    top: -194px;
+    left: 146px;
+    font-size: 61px;
+}
+.fourth{
+    background-color: white;
+    height: 323px;
+    width: 691px;
+    position: relative;
+    top: -631px;
+}
+.fifth{
+    width: 716px;
+    height: 389px;
+    position: relative;
+    top: -1033px;
+    left: 765px;
+}
